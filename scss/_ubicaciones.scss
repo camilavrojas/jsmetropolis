@@ -1,0 +1,50 @@
+$centro: center; 
+$izquierda: left; 
+$derecha: right; 
+$flex: flex;
+$inline: inline-block;
+$ninguno: none;
+$final: flex-end;
+$top: top;
+$tablecell: table-cell;
+$pointer: pointer;
+$block: block;
+$oculto: hidden;
+
+
+
+.botonTienda {text-align: $centro;}
+
+h5, h4, p {text-align: $centro; }
+
+.footerP {text-align: $izquierda; }
+
+.anuncio__titulo--ubicacion, .galeria__texto--ubicacion, h3 {text-align: $centro;}
+
+.formularioTienda, .galeria__titulo--ubicacion {text-align: $centro;}
+
+.navbar-expand-lg .navbar-collapse { justify-content: $final; }
+
+.aCuenta, .centradoForm, .formC { display: $flex; justify-content: $centro; }
+
+h1 {text-align: $centro; }
+
+.mapaAcerca { display: $flex; justify-content: $centro; }
+
+.dropdown { display: $flex; justify-content: $centro; }
+
+.principal__texto--ubicacion {text-align: $centro;}
+
+.media, .mediaImg { display: $tablecell; vertical-align: $top; }
+
+.card-acerca, .card-link { display: $flex; justify-content: $centro; }
+
+.tiendah4:hover { cursor: $pointer; }
+
+.input {display: $block; text-align: $centro;}
+
+.button, .button2, .imagenerror, .paginaerror , .pPagina  {display: $block;}
+
+.linkerror { display: $inline;}
+
+

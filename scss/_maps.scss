@@ -1,0 +1,53 @@
+$estilos: (
+    color1: #2b2727,
+    color2: #fff,
+    paddingabajo: 1px,
+    paddingtotal:20px,
+    bloque: inline-block,
+    lista: none,
+    treinta:30px,
+    cien:100px,
+    centro: center,
+    tamanio: 1.5rem,
+);
+
+
+.footer { 
+    background-color: map-get($estilos, color1);
+    padding-bottom: map-get($estilos, paddingabajo); 
+}
+
+.footer a { 
+    color: map-get($estilos, color2); 
+    text-decoration: map-get($estilos, lista);
+}
+
+.footer ul li {
+    list-style-type: map-get($estilos, lista);
+    display: map-get($estilos, bloque);
+    padding-left: map-get($estilos, treinta);
+}
+
+.footer ul { 
+    padding: map-get($estilos, paddingtotal); 
+}
+
+.acercainfo p { 
+    text-align: map-get($estilos, centro); 
+    margin-top: map-get($estilos, treinta);
+    margin-left: map-get($estilos, cien);
+    margin-right: map-get($estilos, cien);
+}
+
+.acercainfo h3 { 
+    text-align: map-get($estilos, centro); 
+    margin: map-get($estilos, treinta);
+    font-size: map-get($estilos, tamanio);
+}
+
+
+
+
+
+
+

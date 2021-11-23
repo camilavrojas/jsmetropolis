@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <!--link google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--link bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--link css AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- inicio contenedor-->
+    <div class="contenedor">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a>METROPOLIS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="cursos.html">Cursos</a>
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                            <a class="nav-link" href="galeria.html">Galería</a>
+                            <a class="nav-link" href="../index.html">Salir<span class="sr-only">(current)</span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>         
+        </div>
+    </div>
+    <!-- cierre de barra de navegacion-->
+    <!-- abre imagenes-->
+    <div class="contenedor">
+        <div class="col-lg-12 col-xs12 carruselGaleria">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/img/galeria/121.jpg" class="img-fluid" alt="img121">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/galeria/122.jpg" class="img-fluid" alt="img122">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/galeria/124.jpg" class="img-fluid" alt="img124">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </div>
+    <div class="galeria">
+        <h3 class="galeria__titulo galeria__titulo--color galeria__titulo--mbox galeria__titulo--ubicacion">Nuestros alumnos y miembros de la comunidad han subido 5.845 fotos hasta el momento</h3>
+        <p class="galeria__texto galeria__texto--tamanio galeria__texto--mbox galeria__texto--ubicacion">Puedes verlas aquí abajo y además también puedes compartir tus propias fotos.</p>
+    </div>
+    <div class="contenedor">
+        <div class="row imagenesGaleria">
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/1216x806x2.jpg" alt="gatito" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/1216x813x2.jpg" alt="gato" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+               <img src="../assets/img/galeria/1216x815x2 (1).jpg" alt="barrio" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>       
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/1216x815x2 (2).jpg" alt="ciudad" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>
+        </div>
+        <div class="row imagenesGaleria">
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/1.jpg" alt="pajaros" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/2.jpg" alt="cisnes" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+               <img src="../assets/img/galeria/6.jpg" alt="barco" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>       
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/7.jpg" alt="mujeres" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>
+        </div>
+        <div class="row imagenesGaleria">
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/1216x614x1j.jpg" alt="mujer" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/1216x806x2 (1).jpg" alt="lago" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+               <img src="../assets/img/galeria/3.jpg" alt="callejera" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>       
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/16.jpg" alt="monito" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>
+        </div>
+        <div class="row imagenesGaleria">
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/15.jpg" alt="lago" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/17.jpg" alt="hombre" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000"> 
+            </section>
+            <section class="col-lg-3 col-xs-12">
+               <img src="../assets/img/galeria/18.jpg" alt="cielo" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>       
+            <section class="col-lg-3 col-xs-12">
+                <img src="../assets/img/galeria/19.jpg" alt="flores" class="img-fluid" data-aos="zoom-in" data-aos-duration="2000">
+            </section>
+        </div>
+    </div>
+    <!-- cierre imagenes y video-->
+    <!--inicio footer-->
+        <div class="contenedor">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12">
+                    <footer class="footer">
+                        <ul>
+                            <li><a href="acerca.html">Acerca</a></li> 
+                            <li style="padding-bottom: 10px;"><a href="contacto.html">Contacto</a></li>
+                            <p class="footerP">099 598 572</p>
+                            <p class="footerP">info@metropolis.com.uy</p>
+                            <li><a href="http://www.facebook.com/"></a><img src="../assets/img/redes sociales/fb.png" class="imagenesRedes"></a></li>
+                        <li><a href="http://www.instagram.com/"><img src="../assets/img/redes sociales/ig.png" class="imagenesRedes"></a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    <!-- cierre footer-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>  AOS.init(); </script>
+    <script src="../local.js"></script>
+</body>
+</html>
+  

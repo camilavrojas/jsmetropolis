@@ -1,0 +1,66 @@
+$cero: 0;
+$cuarenta: 40px;
+$trestreinta: 330px;
+$seis: 600px;
+$centro: center;
+$none: none;
+$veinte: 20px;
+$flex: flex;
+$veinte: 20px;
+
+
+.formularioTienda { 
+  @media (max-width: 767px) { 
+  width: $seis; 
+  width: $trestreinta; }
+}
+
+
+.navbar { 
+  @media (max-width: 767px) {  
+  padding-left: $cuarenta; 
+  padding-right: $cuarenta; }
+}
+
+.navbar-brand { 
+  @media (max-width: 767px) { 
+  margin-right: $cero;
+  padding-left: $cero; }
+} 
+
+.mediaIndex, .form-text, .form-control { 
+  @media (max-width: 767px) { 
+  text-align: $centro; }
+} 
+
+.formularioTienda { 
+  @media (max-width: 767px) { 
+  background: #fff;
+  padding-top: $cero;
+  padding-bottom: $veinte; }
+} 
+
+.formC { 
+  @media (max-width: 767px) { 
+  border-radius: $cero;
+  box-shadow: $none;
+  margin:  $cero; }
+} 
+
+.linkerror  { 
+  @media (max-width: 767px) { 
+  display: $flex;
+  justify-content: $centro;
+  margin:  $cincuenta; }
+} 
+
+.padInicio {
+  @media (max-width: 767px) { 
+  padding-top: $veinte }
+}
+
+.img-index {
+  @media (max-width: 767px) { 
+  max-width: 100%;
+  height: auto; }
+}

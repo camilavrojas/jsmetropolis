@@ -1,0 +1,87 @@
+
+$colorFooter: #2f3e46;
+$colorTitulo: #354f52;
+$blancofooter: #fff;
+$formTienda: rgb(48, 55, 78);
+$colorAcerca: rgb(241, 241, 241);
+$colorInfo: rgb(255, 255, 255); 
+$hover: rgb(151, 151, 151);
+$hoverimg: rgb(175, 170, 162);
+$tiendaT: #315e63; 
+$tiendaHover:#498e97; 
+$clarito: rgb(232, 232, 232);
+$negrita: bold;
+$claro: #EFEFBB; 
+$oscuro:#D4D3DD;
+$oscurodos:#465c61;
+$formulario: #c6c6c6;
+$ninguno: none;
+$focus: #5e5d5d;
+$uno:#6a92a0;
+$botonuno: #876a81;
+$botondos:#b2b1ab;
+$texto: #e8e8e8;
+$botoninicio: #473b44;
+$botoninicioo:#7c7c7c;
+
+
+h1, h2, h3 {color:$colorTitulo;} 
+
+.novedades__titulo--color {color:$colorTitulo;}  
+
+.imagenesTiendaDos h5 {color:$colorTitulo;}  
+
+.anuncio__titulo--color {color:$colorTitulo;} 
+
+.footerP, .colorFormTienda {color: $blancofooter;} 
+
+.formularioTienda {color: $formTienda;} 
+  
+.colorInformacion { background-color: $colorInfo; }
+
+.footer a:hover { color: $hover; }
+
+.imagenHover:hover { color: $hoverimg; }
+  
+.tiendah4 { color:$tiendaT; }
+  
+.tiendah4:hover { color:$tiendaHover; }
+  
+.formularioTienda1 { background-color: $clarito; }
+
+.tiendah4 { font-weight: $negrita; }
+
+.formularioTienda, .colorT, .novedades, .colorAcerca, .error { 
+    background: #EFEFBB;  
+    background: -webkit-linear-gradient(to right, $oscuro, $claro); 
+    background: linear-gradient(to right, $oscuro, $claro);}
+
+.footer li { color: $blancofooter; }
+
+.formC { background-color: $blancofooter;}
+
+.input { background-color: $ninguno; color: $formulario;}
+
+.input:focus {color: $focus;}
+
+.input:hover  {color: $uno ;}
+
+.button, .linkerror { 
+    background: $claro; 
+    background: -webkit-linear-gradient(to left, $botonuno, $botondos);  
+    background: linear-gradient(to left, $botonuno, $botondos);
+    color: $blancofooter; }
+
+.button2 { 
+    background: $claro; 
+    background: -webkit-linear-gradient(to left, $botoninicio, $botoninicioo);  
+    background: linear-gradient(to left, $botoninicio, $botoninicioo);
+    color: $blancofooter; }
+
+.completar { background-color: $texto;}
+
+.linkerror:hover {color: $oscuro;}
+
+
+
+

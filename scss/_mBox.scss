@@ -1,0 +1,177 @@
+$ninguno: 0;
+$uno: 1px;
+$dos: 2px;
+$cinco: 5px;
+$diez: 10px;
+$quince: 15px;
+$veinte: 20px;
+$treinta: 30px;
+$cuarenta: 40px;
+$cincuenta: 50px;
+$sesenta: 60px;
+$setenta: 70px;
+$mrgButton: 88px;
+$cien: 100px;
+$auto: auto;
+$start: start;
+$no: none;
+$solido: solid;
+$label: -10px;
+$cero: 0%;
+$boton: 10px;
+$botondos: 15px;
+
+
+.imagenInfoClass { margin-bottom: $veinte; }
+.colorT {padding-bottom: $cincuenta;}
+.btn-boxdos {margin-top: $cinco; margin-bottom: $veinte;  margin-left: $mrgButton;}
+.mbxboton {margin-left: $diez;}
+.btn-box {margin-top: $cinco; margin-bottom: $veinte; }
+.contenedor { overflow: hidden; }
+.col-lg-12, .col-lg-6 { padding-left: 0; padding-right: 0; }
+.navbar-brand { padding-left:$veinte; }
+.navbar-nav { padding-right: $veinte; }
+
+h1 { margin-top: $treinta; margin-bottom: $veinte; }
+
+h4 { padding-top: $veinte; }
+
+h3 { padding: $veinte; }
+
+.novedades__titulo--box {
+    margin-top: $treinta; 
+}
+
+.novedades__texto--box {
+    padding: $quince;
+}
+
+.imagenesTienda, .imagenesTiendaDos {
+    margin: {
+        left: $veinte;
+        right:$veinte;}
+}
+
+.anuncio__texto--mbox {
+    margin: {
+        left: $veinte;
+        right:$veinte;
+        bottom: $veinte;}
+}
+
+.anuncio__titulo--mbox {
+    margin: {
+        top: $treinta;}
+}
+
+.formularioTienda {
+    margin-top: $cuarenta;}
+
+.carruselGaleria {
+    margin-top: $cuarenta; 
+    margin-bottom: $cincuenta; }
+
+.imagenesGaleria {
+    margin-left: $veinte;
+    margin-right: $veinte; }
+
+.imagenesGaleria img { margin-bottom: $veinte; }
+
+.imagenesCursos { margin: $veinte; }
+
+.galeria__texto--mbox { margin-bottom: $cuarenta; }
+
+.galeria__titulo--mbox { margin-top: $treinta;  }
+
+.form-text { padding-top: $ninguno; margin: $dos; padding-bottom: $veinte; }
+
+.padInicio { padding-left: $treinta; padding-right: $cincuenta; padding-top: $setenta; }
+
+.h3Index { padding: $cincuenta $treinta; }
+
+.imagenPM img {padding: $ninguno; margin: $ninguno; }
+
+.btn { padding: $diez $cinco ; }
+
+.pCuenta {padding-bottom: $uno; margin-top: $quince; }
+
+.aCuenta { padding-top: $uno; padding-bottom: $treinta; }
+
+.infoAcerca { padding: $cuarenta $diez ; }
+
+.infoAcerca p { margin: $dos $cinco; padding: $dos $cinco}
+
+.dropdown { padding-top: $uno; }
+
+.info { padding-top: $cuarenta; padding-bottom: $treinta; }
+
+.principal__titulo--mbox { padding-top: $cuarenta; padding-bottom: $dos; }
+
+.principal__texto--mbox  {padding: $diez}
+
+.divTienda {padding-bottom: $diez }
+
+.footerP {padding-left: $treinta; padding-top: $diez; }
+
+.formularioTienda { margin: $auto; padding-top: $treinta; padding-bottom: $cuarenta; }
+
+.tituloForm   { padding: $treinta; }
+  
+.promociones, .colorCursos { padding: $cinco; }
+
+.mediaImg  { padding-right: $veinte; }
+
+.media h4, .media p  {text-align: $start; }
+
+.acercaContenedor { padding: $cincuenta; }
+
+.colorAcerca { padding: $sesenta; }
+
+.colorInformacion, .imagenHover {border-radius: $veinte; }
+
+.card, .mapaContorno { border-radius: $treinta; }
+
+.mapaAcerca {margin-bottom: $cincuenta; }
+
+.novedades { padding-bottom: $veinte; padding-top: $diez; }
+
+.padTienda { padding-bottom: $cincuenta; }
+
+.bordeTienda { border-radius: $veinte; }
+
+.padH5 { padding-top:  $veinte; }
+
+.formC { padding: $veinte ; margin-top: $sesenta; margin-bottom: $treinta; }
+
+.formC { box-shadow: $ninguno $ninguno $veinte $ninguno; border-radius: $diez;}
+
+.input { border: $no; border-bottom: $uno $solido;}
+
+.input:focus {outline: $no;}
+
+.grupo {padding: $cinco;}
+
+.button {border: $no; margin: $diez $auto; border-radius: $diez; padding: $boton $cuarenta;}
+
+.button2 {border: $no; margin: $diez $auto; border-radius: $veinte; padding: $botondos $cuarenta;}
+
+.completar { border-radius: $veinte; border: $no; }
+
+.colorCursos {padding: $diez; border-radius: $diez;}
+
+.footer li { padding-bottom: $diez;}
+
+.aCuenta:hover, .linkerror:hover {text-decoration: $no;}
+
+.imagenerror {padding-top: $cincuenta; margin: $auto;}
+
+.linkerror {margin-top:$cuarenta; margin-left: $cincuenta; padding: $quince; border-radius:$diez;}
+
+
+
+
+
+
+
+
+  

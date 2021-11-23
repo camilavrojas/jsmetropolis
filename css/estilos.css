@@ -1,0 +1,504 @@
+h1, h2, h3 {
+  color: #354f52; }
+
+.novedades__titulo--color {
+  color: #354f52; }
+
+.imagenesTiendaDos h5 {
+  color: #354f52; }
+
+.anuncio__titulo--color {
+  color: #354f52; }
+
+.footerP, .colorFormTienda {
+  color: #fff; }
+
+.formularioTienda {
+  color: #30374e; }
+
+.colorInformacion {
+  background-color: white; }
+
+.footer a:hover {
+  color: #979797; }
+
+.imagenHover:hover {
+  color: #afaaa2; }
+
+.tiendah4 {
+  color: #315e63; }
+
+.tiendah4:hover {
+  color: #498e97; }
+
+.formularioTienda1 {
+  background-color: #e8e8e8; }
+
+.tiendah4 {
+  font-weight: bold; }
+
+.formularioTienda, .colorT, .novedades, .colorAcerca, .error {
+  background: #EFEFBB;
+  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB); }
+
+.footer li {
+  color: #fff; }
+
+.formC {
+  background-color: #fff; }
+
+.input {
+  background-color: none;
+  color: #c6c6c6; }
+
+.input:focus {
+  color: #5e5d5d; }
+
+.input:hover {
+  color: #6a92a0; }
+
+.button, .linkerror {
+  background: #EFEFBB;
+  background: -webkit-linear-gradient(to left, #876a81, #b2b1ab);
+  background: linear-gradient(to left, #876a81, #b2b1ab);
+  color: #fff; }
+
+.button2 {
+  background: #EFEFBB;
+  background: -webkit-linear-gradient(to left, #473b44, #7c7c7c);
+  background: linear-gradient(to left, #473b44, #7c7c7c);
+  color: #fff; }
+
+.completar {
+  background-color: #e8e8e8; }
+
+.linkerror:hover {
+  color: #D4D3DD; }
+
+.shopping-cart-image {
+  height: 100px; }
+
+h5 {
+  font-size: 1rem; }
+
+h3 {
+  font-size: 1.3rem; }
+
+h4 {
+  font-size: 1.1rem; }
+
+.mapaAcerca iframe {
+  height: 400px;
+  width: 1000px; }
+
+.novedades__texto--tamanio {
+  font-size: 1.1rem; }
+
+.imagenesTiendaDos img {
+  width: 400px; }
+
+.galeria__texto--tamanio {
+  font-size: 1.3rem; }
+
+.informacion__texto--tamanio {
+  font-size: 1.3rem; }
+
+.imagenesAcerca {
+  width: 100px; }
+
+.imagenHover:hover {
+  box-shadow: 10px 10px 25px; }
+
+.imagenesRedes {
+  width: 30px;
+  height: 30px; }
+
+.input {
+  width: 100%; }
+
+.button, .button2 {
+  width: 80%; }
+
+.paginaerror {
+  font-size: 4rem; }
+
+.pPagina {
+  font-size: 2rem; }
+
+.imagenerror {
+  width: 180px; }
+
+.img-index {
+  height: 700px; }
+
+.imagenInfoClass {
+  margin-bottom: 20px; }
+
+.colorT {
+  padding-bottom: 50px; }
+
+.btn-boxdos {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 88px; }
+
+.mbxboton {
+  margin-left: 10px; }
+
+.btn-box {
+  margin-top: 5px;
+  margin-bottom: 20px; }
+
+.contenedor {
+  overflow: hidden; }
+
+.col-lg-12, .col-lg-6 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.navbar-brand {
+  padding-left: 20px; }
+
+.navbar-nav {
+  padding-right: 20px; }
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+h4 {
+  padding-top: 20px; }
+
+h3 {
+  padding: 20px; }
+
+.novedades__titulo--box {
+  margin-top: 30px; }
+
+.novedades__texto--box {
+  padding: 15px; }
+
+.imagenesTienda, .imagenesTiendaDos {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.anuncio__texto--mbox {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+.anuncio__titulo--mbox {
+  margin-top: 30px; }
+
+.formularioTienda {
+  margin-top: 40px; }
+
+.carruselGaleria {
+  margin-top: 40px;
+  margin-bottom: 50px; }
+
+.imagenesGaleria {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.imagenesGaleria img {
+  margin-bottom: 20px; }
+
+.imagenesCursos {
+  margin: 20px; }
+
+.galeria__texto--mbox {
+  margin-bottom: 40px; }
+
+.galeria__titulo--mbox {
+  margin-top: 30px; }
+
+.form-text {
+  padding-top: 0;
+  margin: 2px;
+  padding-bottom: 20px; }
+
+.padInicio {
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 70px; }
+
+.h3Index {
+  padding: 50px 30px; }
+
+.imagenPM img {
+  padding: 0;
+  margin: 0; }
+
+.btn {
+  padding: 10px 5px; }
+
+.pCuenta {
+  padding-bottom: 1px;
+  margin-top: 15px; }
+
+.aCuenta {
+  padding-top: 1px;
+  padding-bottom: 30px; }
+
+.infoAcerca {
+  padding: 40px 10px; }
+
+.infoAcerca p {
+  margin: 2px 5px;
+  padding: 2px 5px; }
+
+.dropdown {
+  padding-top: 1px; }
+
+.info {
+  padding-top: 40px;
+  padding-bottom: 30px; }
+
+.principal__titulo--mbox {
+  padding-top: 40px;
+  padding-bottom: 2px; }
+
+.principal__texto--mbox {
+  padding: 10px; }
+
+.divTienda {
+  padding-bottom: 10px; }
+
+.footerP {
+  padding-left: 30px;
+  padding-top: 10px; }
+
+.formularioTienda {
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 40px; }
+
+.tituloForm {
+  padding: 30px; }
+
+.promociones, .colorCursos {
+  padding: 5px; }
+
+.mediaImg {
+  padding-right: 20px; }
+
+.media h4, .media p {
+  text-align: start; }
+
+.acercaContenedor {
+  padding: 50px; }
+
+.colorAcerca {
+  padding: 60px; }
+
+.colorInformacion, .imagenHover {
+  border-radius: 20px; }
+
+.card, .mapaContorno {
+  border-radius: 30px; }
+
+.mapaAcerca {
+  margin-bottom: 50px; }
+
+.novedades {
+  padding-bottom: 20px;
+  padding-top: 10px; }
+
+.padTienda {
+  padding-bottom: 50px; }
+
+.bordeTienda {
+  border-radius: 20px; }
+
+.padH5 {
+  padding-top: 20px; }
+
+.formC {
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px; }
+
+.formC {
+  box-shadow: 0 0 20px 0;
+  border-radius: 10px; }
+
+.input {
+  border: none;
+  border-bottom: 1px solid; }
+
+.input:focus {
+  outline: none; }
+
+.grupo {
+  padding: 5px; }
+
+.button {
+  border: none;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 10px 40px; }
+
+.button2 {
+  border: none;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 15px 40px; }
+
+.completar {
+  border-radius: 20px;
+  border: none; }
+
+.colorCursos {
+  padding: 10px;
+  border-radius: 10px; }
+
+.footer li {
+  padding-bottom: 10px; }
+
+.aCuenta:hover, .linkerror:hover {
+  text-decoration: none; }
+
+.imagenerror {
+  padding-top: 50px;
+  margin: auto; }
+
+.linkerror {
+  margin-top: 40px;
+  margin-left: 50px;
+  padding: 15px;
+  border-radius: 10px; }
+
+.botonTienda {
+  text-align: center; }
+
+h5, h4, p {
+  text-align: center; }
+
+.footerP {
+  text-align: left; }
+
+.anuncio__titulo--ubicacion, .galeria__texto--ubicacion, h3 {
+  text-align: center; }
+
+.formularioTienda, .galeria__titulo--ubicacion {
+  text-align: center; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.aCuenta, .centradoForm, .formC {
+  display: flex;
+  justify-content: center; }
+
+h1 {
+  text-align: center; }
+
+.mapaAcerca {
+  display: flex;
+  justify-content: center; }
+
+.dropdown {
+  display: flex;
+  justify-content: center; }
+
+.principal__texto--ubicacion {
+  text-align: center; }
+
+.media, .mediaImg {
+  display: table-cell;
+  vertical-align: top; }
+
+.card-acerca, .card-link {
+  display: flex;
+  justify-content: center; }
+
+.tiendah4:hover {
+  cursor: pointer; }
+
+.input {
+  display: block;
+  text-align: center; }
+
+.button, .button2, .imagenerror, .paginaerror, .pPagina {
+  display: block; }
+
+.linkerror {
+  display: inline-block; }
+
+.footer {
+  background-color: #2b2727;
+  padding-bottom: 1px; }
+
+.footer a {
+  color: #fff;
+  text-decoration: none; }
+
+.footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 30px; }
+
+.footer ul {
+  padding: 20px; }
+
+.acercainfo p {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.acercainfo h3 {
+  text-align: center;
+  margin: 30px;
+  font-size: 1.5rem; }
+
+@media (max-width: 767px) {
+  .formularioTienda {
+    width: 600px;
+    width: 330px; } }
+
+@media (max-width: 767px) {
+  .navbar {
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    margin-right: 0;
+    padding-left: 0; } }
+
+@media (max-width: 767px) {
+  .mediaIndex, .form-text, .form-control {
+    text-align: center; } }
+
+@media (max-width: 767px) {
+  .formularioTienda {
+    background: #fff;
+    padding-top: 0;
+    padding-bottom: 20px; } }
+
+@media (max-width: 767px) {
+  .formC {
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0; } }
+
+@media (max-width: 767px) {
+  .linkerror {
+    display: flex;
+    justify-content: center;
+    margin: 50px; } }
+
+@media (max-width: 767px) {
+  .padInicio {
+    padding-top: 20px; } }
+
+@media (max-width: 767px) {
+  .img-index {
+    max-width: 100%;
+    height: auto; } }
+
+* {
+  font-family: "Roboto", sans-serif; }

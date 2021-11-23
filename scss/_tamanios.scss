@@ -1,0 +1,57 @@
+$h4yh5: 1rem; 
+$h3Tienda: 1.3rem;
+$cuatro: 400px;
+$grande: 1.5rem;
+$mil:  1000px;
+$h4: 1.1rem;
+$h3: 1.3rem;
+$cuarenta: 40px;
+$seis: 600px;
+$treinta: 30px;
+$cien: 100px;
+$veint: 25px;
+$diez: 10px;
+$cienporciento: 100%;
+$ochenta: 80%;
+$errorpagina: 4rem;
+$pagina: 2rem;
+$imagencuatro: 180px;
+$setesientos: 700px;
+
+
+.shopping-cart-image {height: $cien;}
+
+h5 {  font-size: $h4yh5; }
+
+h3 {  font-size: $h3; }
+
+h4 {font-size: $h4; }
+
+.mapaAcerca iframe { height: $cuatro; width: $mil; }
+
+.novedades__texto--tamanio { font-size: $h4; }
+
+.imagenesTiendaDos img { width: $cuatro; }
+
+.galeria__texto--tamanio { font-size: $h3Tienda; }
+
+.informacion__texto--tamanio { font-size: $h3Tienda; }
+
+.imagenesAcerca { width: $cien; }
+
+.imagenHover:hover { box-shadow: $diez $diez $veint; }
+
+.imagenesRedes { width: $treinta; height: $treinta; }
+
+.input {width: $cienporciento;}
+
+.button, .button2 {width: $ochenta;}
+
+.paginaerror { font-size: $errorpagina;}
+
+.pPagina {font-size: $pagina;}
+
+.imagenerror {width: $imagencuatro;}
+
+.img-index {height: $setesientos ;}
+
