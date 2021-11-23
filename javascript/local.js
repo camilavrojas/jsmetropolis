@@ -1,4 +1,4 @@
-// validacion de inicio de sesion en el index el cual solo puede ingresar con ese correo y contraseña
+// validacion de inicio de sesion en el index el cual solo puede ingresar con esos dos correos y contraseñas
 
 function obtenerListaUsuarios() {
     var listaUsuarios = JSON.parse(localStorage.getItem('listaUsuariosLocal'));
