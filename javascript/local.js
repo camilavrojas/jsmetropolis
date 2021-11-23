@@ -1,4 +1,4 @@
-// validacion de inicio de sesion en el index
+// validacion de inicio de sesion en el index el cual solo puede ingresar con ese correo y contraseña
 
 function obtenerListaUsuarios() {
     var listaUsuarios = JSON.parse(localStorage.getItem('listaUsuariosLocal'));
@@ -6,7 +6,8 @@ function obtenerListaUsuarios() {
     if (listaUsuarios == null ) {
         listaUsuarios = 
         [
-            ['1', 'Camila', 'Rodriguez', 'camilarojas@hotmail.com', '1234entrar', '1995-10-07', '1']
+            ['1', 'Camila', 'Rojas', 'camilarojas@hotmail.com', '1234entrar', '1995-07-07', '1'], 
+            ['2', 'Martin', 'Gonzales', 'marting@hotmail.com', 'profejs', '1992-01-23', '1']
         ]
     }
     return listaUsuarios
